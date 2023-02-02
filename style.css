@@ -1,0 +1,60 @@
+h1{
+    color:#a855f7;
+     margin-top:2rem;
+    padding:2rem;
+    text-align: center;
+    border-style:double;
+    border-color:#a855f7;
+    border-radius:2rem;
+    background-color:lavender
+}
+p{
+    font-family:cursive;
+    text-align:center;
+    font-size:large;
+}
+.bill_and_cash_heading{
+    text-align:center;
+    font-size:larger;
+    font-weight:bold
+    
+}
+.input_output{
+
+    text-align: center;
+    padding:1rem;
+    
+    margin:auto;
+    
+    background-color:lavender;
+    border-color:#a855f7
+    }
+    button{
+        padding:1rem;
+        border-radius:2rem;
+        border-color:#a855f7;
+        background-color:lavender
+    }
+    h2{
+        font-size:xx-large;
+        text-align:center;
+        color:#a855f7
+    }
+    table{
+        font-size:x-large;
+        border-collapse:collapse;
+        table-layout:fixed;
+        width:30em;
+        height:5em;
+        background-color: lavender;
+        border-color:#a855f7;
+        border-style:inset;
+        column-span:1;
+    }
+    th,td{
+        border:1px solid #a855f7
+    }
+    .centre{
+        margin:auto;
+       
+    }
