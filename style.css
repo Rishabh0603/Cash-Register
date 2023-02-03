@@ -26,12 +26,19 @@ p{
 
     text-align: center;
     padding:1rem;
+    
     background-color:lavender;
     border-color:#a855f7
     
     }
+    div{
+        text-align:center;
+
+    }
     button{
-        padding:1rem;
+        margin-top: 2rem;
+        padding:2rem;
+        
         border-radius:2rem;
         border-color:#a855f7;
         background-color:lavender
