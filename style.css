@@ -1,3 +1,6 @@
+body{
+    background-color: lavenderblush;
+}
 h1{
     color:#a855f7;
      margin-top:2rem;
@@ -23,11 +26,9 @@ p{
 
     text-align: center;
     padding:1rem;
-    
-    margin:auto;
-    
     background-color:lavender;
     border-color:#a855f7
+    
     }
     button{
         padding:1rem;
