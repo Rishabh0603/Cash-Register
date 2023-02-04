@@ -1,10 +1,9 @@
-
 var bill  = document.querySelector("#bill-amount");
 var payment = document.querySelector("#cash-given");
 var clicking = document.querySelector("#checkButton");
 var message = document.querySelector("#error-message");
 var notes= document.querySelectorAll(".no-of-notes");
-var availablenotes =[2000, 500,200, 100, 50, 10, 1];
+var availablenotes =[2000, 500, 100, 50, 10,5, 1];
 
 
 
@@ -12,10 +11,12 @@ var availablenotes =[2000, 500,200, 100, 50, 10, 1];
 function clickEventHandler(){
     var billdue = bill.value;
     var paymentdone = payment.value;
+    var billdue1 = parseInt(billdue);
+    var paymentdone1 = parseInt(paymentdone);
     message.style.display="none";
     if(billdue > 0)
     {
-        if(paymentdone>=billdue){
+        if(paymentdone1 >= billdue1){
             var amountobeReturned = paymentdone - billdue;
             Calculatechange(amountobeReturned);
         }
@@ -29,7 +30,7 @@ function clickEventHandler(){
  }
 
     clicking.addEventListener("click",clickEventHandler);
-    
+
     function errormessage(msg){
         message.style.display = "block";
         message.innerText = msg;
